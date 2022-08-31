@@ -27,7 +27,7 @@ AllowShortCaseLabelsOnASingleLine: true
 AllowShortEnumsOnASingleLine: false
 AllowShortFunctionsOnASingleLine: Inline
 AllowShortIfStatementsOnASingleLine: WithoutElse
-AllowShortLambdasOnASingleLine: All
+AllowShortLambdasOnASingleLine: Inline
 AllowShortLoopsOnASingleLine: false
 AlwaysBreakAfterReturnType: None
 AlwaysBreakBeforeMultilineStrings: false
@@ -51,7 +51,7 @@ BraceWrapping:
   AfterExternBlock: true
   BeforeCatch: false
   BeforeElse: false
-  BeforeLambdaBody: false
+  BeforeLambdaBody: true
   BeforeWhile: false
   IndentBraces: false
   SplitEmptyFunction: false
@@ -97,7 +97,7 @@ IndentWrappedFunctionNames: false
 InsertTrailingCommas: None
 KeepEmptyLinesAtTheStartOfBlocks: false
 # clang-format 13
-# LambdaBodyIndentation: Signature
+LambdaBodyIndentation: Signature
 Language: Cpp
 MaxEmptyLinesToKeep: 1
 NamespaceIndentation: Inner
