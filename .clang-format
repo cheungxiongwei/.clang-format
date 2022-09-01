@@ -32,7 +32,7 @@ AllowShortLoopsOnASingleLine: false
 AlwaysBreakAfterReturnType: None
 AlwaysBreakBeforeMultilineStrings: false
 AlwaysBreakTemplateDeclarations: Yes
-AttributeMacros: ['signals', 'slots']
+AttributeMacros: ['__capability', '__output', '__ununsed']
 BinPackArguments: false
 BinPackParameters: false
 BitFieldColonSpacing: Both
